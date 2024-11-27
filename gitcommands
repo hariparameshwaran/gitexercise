@@ -1,0 +1,14 @@
+This file contains git commands
+
+1. Creating local repository and push it to remote
+Create a folder in your local filesystem
+git init
+git add .
+git commit -m "First commit"
+git remote add origin https://github.com/hariparameshwaran/gitexercise.git
+git push --set-upstream origin master
+echo "Second content" >> secondfile.txt
+cat secondfile.txt
+git status
+git add .
+git commit -m "Added second file"
